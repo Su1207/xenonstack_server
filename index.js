@@ -8,7 +8,11 @@ require("./db/db");
 const app = express();
 const PORT = 4000;
 
-const allowedOrigin = ["http://localhost:5173", "http://localhost:5174"];
+const allowedOrigin = [
+  "http://localhost:5173",
+  "http://localhost:5174",
+  "https://xenonstack-frontend-ten.vercel.app",
+];
 
 app.use(
   cors({
