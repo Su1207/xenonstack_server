@@ -28,16 +28,19 @@ Ensure you have the following installed:
    cd estate-website-backend
 
 2.  **Install the required Node.js packages**
-   
+
+    ```bash
     npm install
 
 3.  **Set Up Environment Variables**
 
+    ```bash
     PORT=4000
     MONGO_URI=mongodb://localhost:27017/estate-website
     JWT_SECRET=your_jwt_secret
 
 4.  **Run the Server**
 
+    ```bash
     npm start
 
